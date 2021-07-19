@@ -1,0 +1,32 @@
+{
+    "fTask": {
+        "date": "* * * * * *",
+        "log": 1,
+        "add": {
+            "path": "./log.txt",
+            "data": "error",
+            "encoding": "utf8"
+        },
+        "del": {
+            "path": "./log.txt"
+        }
+    },
+    "mailTask": {
+        "date": "* * * * * *",
+        "log": 1,
+        "transportOption": {
+            "service": "gmail",
+            "auth": {
+                "user": "tianyajian@gmail.com",
+                "pass": "lfj"
+            }
+        },
+        "mailOption": {
+            "from": "tianyajian@gmail.com",
+            "to": "215221938@qq.com",
+            "subject": "Server Profile",
+            "text": "Server is running"
+        }
+
+    }
+}
